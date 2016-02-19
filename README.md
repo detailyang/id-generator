@@ -11,7 +11,7 @@ you have to ways to get the binary :grin:, choose the best way the enojoy it.
 1. Download release package on github
 2. clone the source code and compile
 
-#docs
+#Docs
 1. [how to compile](https://github.com/detailyang/docs/compile)    
 2. [how to configure](https://github.com/detailyang/docs/configure)    
 
