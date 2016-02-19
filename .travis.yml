@@ -3,6 +3,9 @@ language: c
 compiler:
   - gcc
 
+script:
+  - echo "sorry, i havent add test:("
+
 before_deploy:
   - make PREFIX=/opt/id-generator install
 
