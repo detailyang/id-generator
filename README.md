@@ -12,9 +12,9 @@ you have to ways to get the binary :grin:, choose the best way the enojoy it.
 2. clone the source code and compile
 
 #Docs
-1. [how to compile](https://github.com/detailyang/docs/compile)
-2. [how to configure](https://github.com/detailyang/docs/configure)
-3. [how to use](https://github.com/detailyang/docs/use)
+1. [how to compile](https://github.com/detailyang/id-generator/blob/master/docs/compile.md)
+2. [how to configure](https://github.com/detailyang/id-generator/blob/master/docs/configure.md)
+3. [how to use](https://github.com/detailyang/id-generator/blob/master/docs/usage.md)
 
 # Help
 If you have any questions or comments, you can reach us at detailayng@gmail.com.
