@@ -1,4 +1,4 @@
-# id-generator
+# id-generator ![Branch master](https://img.shields.io/badge/branch-master-brightgreen.svg?style=flat-square)[![Build Status](https://api.travis-ci.org/detailyang/id-generator.svg)](https://travis-ci.org/detailyang/id-generator)[![release](https://img.shields.io/github/release/detailyang/id-generator.svg)](https://github.com/detailyang/id-generator/releases)[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/detailyang/id-generator/master/LICENSE)
 distributed id generation system fork by redis 3.0.2  which support snowflake objectid serialid and sequence number
 
 
