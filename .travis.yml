@@ -6,6 +6,10 @@ compiler:
 script:
   - echo "sorry, i havent add test:("
 
+defore_install:
+  - apt-get intall build-essential
+  - apt-get install tcl
+  
 before_deploy:
   - make PREFIX=/opt/id-generator install
 
