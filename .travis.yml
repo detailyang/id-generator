@@ -6,19 +6,10 @@ compiler:
 script:
   - echo "sorry, i havent add test:("
 
-defore_install:
-  - apt-get intall build-essential
-  - apt-get install tcl
-  
-before_deploy:
-  - make PREFIX=/opt/id-generator install
-
 deploy:
   provider: releases
   api_key: $CI_USER_TOKEN
   skip_cleanup: true
-  file:
-    - /opt/id-generator
   on:
     tags: true
     all_branches: true
