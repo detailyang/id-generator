@@ -25,7 +25,7 @@ OPT=$(OPTIMIZATION)
 PREFIX?=/usr/local
 INSTALL_BIN=$(PREFIX)/bin
 CONFIG_DIR=$(PREFIX)/conf
-CONFIG_DIR=$(PREFIX)/scripts
+SCRIPT_DIR=$(PREFIX)/scripts
 UTILS_DIR=$(PREFIX)/utils
 INSTALL=install
 
