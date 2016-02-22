@@ -25,6 +25,7 @@ OPT=$(OPTIMIZATION)
 PREFIX?=/usr/local
 INSTALL_BIN=$(PREFIX)/bin
 CONFIG_DIR=$(PREFIX)/conf
+CONFIG_DIR=$(PREFIX)/scripts
 UTILS_DIR=$(PREFIX)/utils
 INSTALL=install
 
@@ -255,3 +256,4 @@ install: all
 	$(REDIS_INSTALL) $(REDIS_CHECK_AOF_NAME) $(INSTALL_BIN)
 	@ln -sf $(REDIS_SERVER_NAME) $(INSTALL_BIN)/$(REDIS_SENTINEL_NAME)
 	@cp -r ../conf $(CONFIG_DIR)
+	@cp -r ../scripts $(SCRIPT_DIR)
