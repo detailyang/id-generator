@@ -11,4 +11,4 @@ In order to solve the distributed unique id, there are many ready-made solutions
 3. [how to use](https://github.com/detailyang/id-generator/blob/master/docs/usage.md)
 
 # Help
-If you have any questions or comments, you can reach us at detailayng@gmail.com.
+If you have any questions or comments, you can reach us at detailyang@gmail.com.
