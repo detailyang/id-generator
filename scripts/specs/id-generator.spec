@@ -1,7 +1,7 @@
 %define oname   id-generator
 %define  _root   /opt/%{oname}
 Name:       id-generator
-Version:    0.1.0
+Version:    0.1.4
 Release:    1%{?dist}
 Summary:    id generator
 
@@ -21,7 +21,6 @@ id-generator is a id generator for distributed environment
 %prep
 %setup -q -n %{oname}-%{version}
 
-
 %build
 make
 
@@ -29,6 +28,7 @@ make
 rm -rf %{buildroot}
 make PREFIX=%{buildroot}%{_root} install
 mkdir -p %{buildroot}/data/%{oname}
+mkdir -p %{buildroot}/etc/init.d
 install -m 0755 %{SOURCE1} %{buildroot}/etc/init.d/id-generatord
 
 %clean
@@ -54,5 +54,5 @@ elif [ $1 -eq 2 ]; then
 fi
 
 %changelog
-* Mon Feb 22 14:05:52 detailyang <detailyang@gmail.com> 0.1.0-1
+* Mon Feb 22 2016 detailyang <detailyang@gmail.com> 0.1.4-1
   id-generator init.
