@@ -50,7 +50,10 @@ if [ $1 -eq 1 ] ; then
     chkconfig id-generator on
 elif [ $1 -eq 2 ]; then
     #update
-    :
+    id idgen 2>/dev/null || useradd -r idgen
+    chown -R idgen.idgen /data/id-generator
+    chkconfig --add id-generator
+    chkconfig id-generator on
 fi
 
 %changelog
