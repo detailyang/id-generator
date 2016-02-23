@@ -8,7 +8,7 @@ timeout 0
 tcp-keepalive 60
 loglevel notice
 logfile "id-generator.log"
-pidfile "/data/id-generator/id-generator.pid"
+pidfile /data/id-generator/id-generator.pid
 maxclients 10000
 appendonly yes
 appendfilename "appendonly.aof"
