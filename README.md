@@ -9,6 +9,7 @@ In order to solve the distributed unique id, there are many ready-made solutions
 1. [How To Compile](https://github.com/detailyang/id-generator/blob/master/docs/compile.md)
 2. [How To Configure](https://github.com/detailyang/id-generator/blob/master/docs/configure.md)
 3. [How To Use](https://github.com/detailyang/id-generator/blob/master/docs/usage.md)
+4. [How to Deploy](https://github.com/detailyang/id-generator/blob/master/docs/deploy.md)
 
 # Help
 If you have any questions or comments, you can reach me at detailyang@gmail.com.
