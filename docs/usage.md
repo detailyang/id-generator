@@ -8,7 +8,7 @@ i delete unsed redis commands and add these commands
 (integer) 3
 192.168.33.10:6379>
 ````
-step is the auto incrment integer like mysql and we can set the step and the starting value
+step is the auto incrment integer like mysql and we can set the step offset and the starting value
 
 ##snowflake
 ````
